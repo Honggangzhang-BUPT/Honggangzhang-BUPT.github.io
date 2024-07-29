@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "张洪刚 / 个人主页"
+title                    : "北邮 / 张洪刚"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -28,9 +28,6 @@ author:
   dizhi           : "北京, 海淀区, 西土城路10号 100876  北京邮电大学,第三教学楼,803"
   dianhua          : "联系电话：010-62283059"
   youxiang         : "邮箱：zhhg@bupt.edu.cn"
-
-gems:
-  - jekyll-sitemap
  
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
