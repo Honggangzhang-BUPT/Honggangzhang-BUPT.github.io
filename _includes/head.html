@@ -10,6 +10,7 @@
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="{{ page.keywords | default: site.keywords }}">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
@@ -19,3 +20,31 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
 <meta http-equiv="cleartype" content="on">
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "张洪刚",
+  "url": "{{ site.url }}",
+  "sameAs": [
+    "https://scholar.google.com/citations?user=PS_CX0AAAAAJ",
+    "https://www.linkedin.com/in/your-profile",
+    "https://github.com/Honggangzhang-BUPT"
+  ],
+  "jobTitle": "教授",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "北京邮电大学"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "北京",
+    "addressRegion": "海淀区",
+    "postalCode": "100876",
+    "streetAddress": "西土城路10号"
+  },
+  "telephone": "010-62283059",
+  "email": "zhhg@bupt.edu.cn"
+}
+</script>
