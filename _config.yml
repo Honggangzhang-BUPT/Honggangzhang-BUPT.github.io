@@ -171,6 +171,8 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - sitemap.xml
+  - google0c8ca1bcc51f1db1.html
 keep_files:
   - .git
   - .svn
